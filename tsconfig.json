@@ -5,6 +5,6 @@
     "types": ["cypress","node", "cypress-plugin-api"],
     "typeRoots": [ "../node_modules/@types" ]
   },
-  "include": ["**/*.ts", "support/locators.ts"]
+  "include": ["**/*.ts", "support/locators.ts", "cypress/support/commands.js"]
   
 }
